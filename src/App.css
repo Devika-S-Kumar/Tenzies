@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  height:800px;
+  min-width:800px;
+  background-color: #ebebeb;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family:'Karla';
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.x {
+    
+
+    background-color: #0B2434;
+    height:500px;
+  width:600px;
+
+  
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box {
+
+  background-color:#E5E5E5;
+  height:430px;
+  width:550px;
+  margin-left:25px;
+   display:inline-block;
+  margin-top:35px;
+  border-radius:5px;
+  color:black;
+
+
+}
+
+.y {
+  padding-left:40px;
+  display: grid;
+  grid-template: auto auto / repeat(5, 1fr); 
+  gap: 10px;
+}
+
+.b{
+
+  background-color:white;
+  height:50px;
+  width:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  cursor:pointer;
+  font-family:'Karla';
+  font-weight:bold;
+  
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+  color: #2B283A;
+
+
+  
+}
+
+p{
+
+  padding-left:50px;
+  color:#4A4E74;
+  padding-right:50px;
+  
+  
+
+}
+
+button{
+   min-width:100px;
+  height:35px;
+  margin-left:230px;
+  margin-top:28px;
+  background-color:#5035FF;
+  color:white;
+  font-size:16px;
+  border:solid 1px;
+  border-color:#3b25c6;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  opacity:0.9;
+}
+
+.mark{
+  border: dashed 5px ;
+  border-color:#2B283A;
+  margin-top:10px;
+  padding:20px;
+  color: #2B283A;
+  background-color:#E5E5E5;
+}
+
+h3{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#4A4E74;
+}
+
+
+.op{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight:bold;
+    color:#4A4E74;
 }
